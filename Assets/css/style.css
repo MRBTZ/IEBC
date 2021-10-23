@@ -1,0 +1,52 @@
+.app-sidebar__user-avatar {
+    width: 70px;
+    background: gray;
+    padding: 6px;
+}
+.app-sidebar__toggle{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15pt;
+}
+.app-sidebar__toggle::before{
+	display: none;
+}
+
+/*este pertenece al cambio de color del modal de actualizar Rol*/
+.headerRegister{
+	background: #009688;
+	color: #FFF;
+}
+/*este pertenece al cambio de color de la letra del modal de actualizar Rol*/
+.headerUpdate{
+	background: #007bff;
+	color: #FFF;
+}
+
+
+.notBlock{
+	display: none;
+}
+
+/*esta es la seccion de colores del navbar*/
+.app-nav {
+    background-color: #222d32;
+}
+
+.app-header {
+    background-color: #222d32;
+}
+
+.app-sidebar__toggle:focus{
+	background-color: #222d32;
+}
+
+.app-header__logo{
+	background-color: #222d32;
+}
+
